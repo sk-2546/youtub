@@ -1,10 +1,6 @@
 {
   "version": 2,
-  "functions": {
-    "api/**/*.py": {
-      "runtime": "python3.11"
-    }
-  },
+  
   "rewrites": [
     { "source": "/search", "destination": "/api/index/search" },
     { "source": "/search/:path*", "destination": "/api/index/search" },
